@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554326CA191718B700023476 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554326C8191718B700023476 /* SettingsViewController.m */; };
+		554326CB191718B700023476 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554326C9191718B700023476 /* SettingsViewController.xib */; };
 		55C1EDF21902F954002D3063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1EDF11902F954002D3063 /* Foundation.framework */; };
 		55C1EDF41902F954002D3063 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1EDF31902F954002D3063 /* CoreGraphics.framework */; };
 		55C1EDF61902F954002D3063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1EDF51902F954002D3063 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		554326C7191718B700023476 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		554326C8191718B700023476 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		554326C9191718B700023476 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
 		55C1EDEE1902F954002D3063 /* tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C1EDF11902F954002D3063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55C1EDF31902F954002D3063 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +117,9 @@
 		55C1EDF71902F954002D3063 /* tip */ = {
 			isa = PBXGroup;
 			children = (
+				554326C7191718B700023476 /* SettingsViewController.h */,
+				554326C8191718B700023476 /* SettingsViewController.m */,
+				554326C9191718B700023476 /* SettingsViewController.xib */,
 				55C1EE201902FABD002D3063 /* TipViewController.h */,
 				55C1EE211902FABD002D3063 /* TipViewController.m */,
 				55C1EE221902FABD002D3063 /* TipViewController.xib */,
@@ -196,7 +204,7 @@
 		55C1EDE61902F954002D3063 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Stella Su";
 				TargetAttributes = {
 					55C1EE081902F954002D3063 = {
@@ -230,6 +238,7 @@
 				55C1EE241902FABD002D3063 /* TipViewController.xib in Resources */,
 				55C1EDFC1902F954002D3063 /* InfoPlist.strings in Resources */,
 				55C1EE041902F954002D3063 /* Images.xcassets in Resources */,
+				554326CB191718B700023476 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 				55C1EE021902F954002D3063 /* AppDelegate.m in Sources */,
 				55C1EE231902FABD002D3063 /* TipViewController.m in Sources */,
 				55C1EDFE1902F954002D3063 /* main.m in Sources */,
+				554326CA191718B700023476 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +306,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -335,7 +344,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -393,7 +401,6 @@
 		55C1EE1E1902F954002D3063 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tip.app/tip";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -416,7 +423,6 @@
 		55C1EE1F1902F954002D3063 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tip.app/tip";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -451,6 +457,7 @@
 				55C1EE1C1902F954002D3063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C1EE1D1902F954002D3063 /* Build configuration list for PBXNativeTarget "tipTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +466,7 @@
 				55C1EE1F1902F954002D3063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
